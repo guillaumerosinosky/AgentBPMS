@@ -1,7 +1,7 @@
 FROM openjdk:slim
 MAINTAINER Chahrazed LABBA (chahrazedlabba@gmail.com)
 RUN apt-get update
-COPY target/bpms-V1multitenantsim-0.0.1-SNAPSHOT.jar bpms.jar
+COPY target/V1multitenantsim-0.0.1-SNAPSHOT.jar bpms.jar
 COPY config.txt config.txt
 ARG BPMSNAME
 ARG URL
